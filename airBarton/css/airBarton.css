@@ -1,0 +1,16 @@
+.header{
+    position: fixed;
+    top:0px;
+    left:0px;
+    border-bottom: 1px solid #e7e7e7;
+    z-index:1030;
+    height:60px;
+    line-height: 60px;
+}
+{
+    float: left;
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+}
