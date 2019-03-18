@@ -1,0 +1,54 @@
+.center{
+    margin-top:100px;
+    margin-bottom: 48px;
+}
+.ct-left{
+    float:left;
+    width:30%;
+}
+.ct-left ul {
+    display: block;
+}
+.ct-left ul  li a{
+    display: block;
+}
+.ct-left ul  li{
+    width:100%;
+    line-height: 36px;
+    text-indent: 26px;
+    font-size: 18px;
+    border:1px solid #fff;
+    border-right:1px dashed #fff;
+}
+.ct-right{
+    float:left;
+    width:58%;
+    padding:0px 5%;
+    border-left:1px dashed #dcdcdc;
+    color:#19191a;
+}
+.ct-right p{
+    line-height: 30px;
+    text-indent:10px
+}
+.ct-right h1{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 0px 4px 0px 0px;
+    text-align: center;
+    margin: 0px 0px 20px;
+    color:
+}
+.ct-right h2{
+    font-size:22px;
+    text-indent:2px
+}
+.ct-right h3{
+    font-size:20px;
+    text-indent:4px
+}
+.ct-right h4{
+    font-size:18px;
+    text-indent:6px
+}

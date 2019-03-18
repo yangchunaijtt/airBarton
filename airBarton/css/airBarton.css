@@ -1,16 +1,333 @@
-.header{
-    position: fixed;
-    top:0px;
-    left:0px;
-    border-bottom: 1px solid #e7e7e7;
-    z-index:1030;
-    height:60px;
-    line-height: 60px;
-}
-{
-    float: left;
-    height: 50px;
-    padding: 15px 15px;
-    font-size: 18px;
-    line-height: 20px;
-}
+/* 中间背景图部分 */
+    .banner{
+        margin-top: 60px;
+        position: relative;
+        max-width: 100%;
+        height: 440px;
+    }
+    .banner .banner-imgdiv{
+        width: 1920px;
+        position: absolute;
+        left: 50%;
+        margin-left: -960px;
+    }
+    .banner  .banner-imgdiv .banner-img{
+        width: 100%;
+        height: 440px;
+    }
+    @media (min-width: 1200px){
+        .banner-imgdiv {
+            width: 1170px;
+        }
+    }
+    .banner-leftdv{
+        position: relative;
+        height:100%;
+    }
+    .banner-left{
+        position: absolute;
+        width: 368px;
+        height: 368px;
+        background: #fff;
+        border: 1px solid #eee;
+        top: 30px;
+        
+    }
+    .banner-leftimg{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+    .banner-leftheader{
+        position: absolute;
+        top: 50%;
+        left: 368px;
+        width: 120px;
+        background: #fff;
+        font-size: 14px;
+        line-height: 36px;
+        margin-top: -18px;
+        color: #fd982b;
+        text-align: center;
+    }
+
+/* 网站公告部分 */
+    .notice{
+        margin-top:50px;
+        height:170px;
+    }
+    .notice .notice-header{
+        height: 30px;
+
+        line-height: 30px;
+    }
+    .notice .notice-header .notice-hdleft{
+        float: left;
+        display: inline-block;
+        position: relative;
+        color: #333;
+    }
+    .notice .notice-header .notice-hdleft  .boticexian{
+        width: 4px;
+        height: 20px;
+        background-color: #358eec;
+        display: inline-block;
+        float: left;
+        top: 50%;
+        position: absolute;
+        left: 0px;
+        margin-top: -10px;
+    }
+    .notice .notice-header .notice-hdleft  .notive-leftword{
+        text-indent: 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    /* 右边内容 */
+    .notice .notice-header .notice-hdright{
+        float: right;
+        display: inline-block;
+        font-size: 14px;
+        color: #555;
+    }
+    .notice-hdright  .notice-hdrighticon{
+        font-size: 16px;
+    }
+    .notice-left{
+        border-right: 1px dashed #dcdcdc;
+        padding-right: 45px;
+        padding-bottom: 20px;
+        padding-left: 0;
+        width: 66%;
+        border-bottom: 1px dashed #dcdcdc;
+        float: left;
+        height: 100%;
+    }
+    .notice-right{
+        padding: 0px 15px;
+        padding-bottom: 20px;
+        width: 34%;
+        border-bottom: 1px dashed #dcdcdc;
+        float: right;
+        height: 100%;
+    }
+    .notice-rightcenter a{
+        padding: 10px 0;
+        display: block;
+        font-size: 14px;
+        margin-left: 15px;
+        margin-right: 15px;
+        color: #747474;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        float: left;
+        width: 100%;
+    }
+    /* 主要内容 */
+    .notice-word{
+        padding: 10px 0;
+        display: block;
+        font-size: 14px;
+        margin-left:15px;
+        margin-right:15px;
+        color: #747474;
+    }
+    .notice-word .notice-wordleft{
+        float:left;
+    }
+    .notice-word .notice-wordtime{
+        float:right;
+    }
+/* 业务范围和行业动态部分 */
+    .business{
+        height:206px;
+    }
+    .business .business-left{
+        border-right: 1px dashed #dcdcdc;
+        padding-right: 45px;
+        padding-bottom: 20px;
+        padding-left: 0;
+        width: 66%;
+        border-bottom: 1px dashed #dcdcdc;
+        float: left;
+        height: 100%;
+    }
+    .business .business-left .business-lefthd{
+        height: 30px;
+        line-height: 30px;
+        position: relative;
+        margin-top:15px;
+    }
+    .business .business-left .business-lefthd .business-leftword{
+        text-indent: 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .business .business-left .business-lefthd .business-boticexian{
+        width: 4px;
+        height: 20px;
+        background-color: #358eec;
+        display: inline-block;
+        float: left;
+        top: 50%;
+        position: absolute;
+        left: 0px;
+        margin-top: -10px;
+    }
+    /* 框内容 */
+    .business-leftct .business-leftctspan{
+        width: 147px;
+        height: 55px;
+        line-height: 55px;
+        text-align: center;
+        border: 1px solid #e7e7e7;
+        margin-top: 15px;
+        margin-right: 26px;
+        cursor: pointer;
+        display: inline-block;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    
+    .business-right{
+        padding: 0px 15px;
+        padding-bottom: 0px;
+        padding-bottom: 20px;
+        width: 34%;
+        border-bottom: 1px dashed #dcdcdc;
+        float: right;
+        height: 100%;
+    }
+    .business-right .business-righthd{
+        float: left;
+        display: inline-block;
+        position: relative;
+        width:100%;
+        color: #333;
+        margin-top:10px;
+    }
+    .business-right .business-righthd .business-rightword{
+        text-indent: 15px;
+        display: inline-block;
+        font-size: 20px;
+    }
+    .business-right .business-righthd .business-boticexian{
+        width: 4px;
+        height: 20px;
+        background-color: #358eec;
+        display: inline-block;
+        float: left;
+        top: 50%;
+        position: absolute;
+        left: 0px;
+        margin-top: -10px;
+    }
+    .business-rightct{
+        margin-top: 50px;
+        padding: 0px 15px;
+    }
+    .business-rightct .business-rightctspan{
+        font-size: 14px;
+        display: inline-block;
+        width: 33.333%;
+        text-align: center;
+        line-height: 36px;
+        float: left;
+        border-bottom: 1px dashed #dcdcdc;
+        color:#555;
+    }
+/* 友情链接部分 */
+    .link{
+        padding-bottom: 48px;
+    }
+    .link-header{
+        margin-top: 48px;
+        margin-bottom: 40px;
+    }
+    .link-center{
+        width:100%;
+    }
+    .link-center ul{
+        width:100%;
+    }
+    .link-center ul li{
+        width:120px;
+        position: relative;
+        text-align: center;
+        margin-left: 30px;
+        overflow: hidden;
+        display: block;
+        margin-left:30px;
+    }
+    .link-center ul li{
+        display: block;
+        width:120px;
+        height:100%;
+    }
+    .link-center ul li img{
+        width:120px;
+        display: block;
+    }
+    .link-center ul li div{
+        width:120px;
+        display: block;
+        text-align: center;
+        line-height: 26px;
+    }
+/* 右侧悬浮提示 */
+    .suspension{
+        position: fixed;
+        width: 45px;
+        right: 0px;
+        top: 200px;
+        position: fixed;
+        z-index: 99;
+    }
+    .suspension ul {
+        display: block;
+    }
+    .suspension ul li{
+        width: 44px;
+        padding: 3px;
+        text-align: center;
+        background-color: #34B558;
+        color: #fff;
+        position: relative;
+        list-style: none;
+    }
+    .suspension ul li .suspension-oneright{
+        position: absolute;
+        width: 150px;
+        right: 44px;
+        display: block;
+        top: 2px;
+        line-height: 50px;
+        border: 2px solid #346E44;
+        z-index:99;
+        background: #fff;
+        color:#555;
+        text-align: center;
+    }
+    .suspension ul li .suspension-tworight{
+        position: absolute;
+        top:2px;
+        right:44px;
+        border: 2px solid #346E44;
+        z-index: 99px;
+        width:150px;
+    }       
+    .suspension-threeicon{
+        font-size: 20px;
+    }
+
+
+    
+    
+
+
+    
+
+
+    
+

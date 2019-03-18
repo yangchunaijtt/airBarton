@@ -12,43 +12,182 @@
     <link rel="stylesheet" href="./airBarton/css/react.css">
     <link rel="stylesheet" href="./airBarton/css/airBarton.css">
     <!-- 字体图标 -->
-    <link rel="stylesheet" href="http:////at.alicdn.com/t/font_1089543_1irq1wayu7n.css">
+    <link rel="stylesheet" href="http://at.alicdn.com/t/font_1089543_1irq1wayu7n.css">
 </head>
 <body>
    <header class="header clearfix">
        <div class="airdiv clearfix">
-            <a href="./airBarton.html">
-                <img src="./airBarton/img/airBarton.jpg">
-                <span>空巴通快线</span>
+            <a  href="./airBarton.html" class="hdleft clearfix">
+                <img src="./airBarton/img/airBarton.jpg" class="hdleft-img">
+                <span class="hdleft-span">空巴通快线</span>
            </a>
-            <ul>
+            <ul class="hdright   clearfix">
                 <li>
-                    <a href="">首页</a>
+                    <a href="./airBarton.html" id="active">首页</a>
                 </li>
                 <li>
-                    <a href="">资讯公告</a>
-                    <i cass="iconfont iconxiala"></i>
-                    <div class="clearfix">
-                        <span>网站公告</span>
-                        <span>行业动态</span>
-                    </div>
+                    <a href="./airBarton/page/notice.html" class="hdright-lia">资讯公告</a>
                 </li>
                 <li>
-                    <a href="">帮助中心</a>
+                    <a href="./airBarton/page/help.html">帮助中心</a>
                 </li>
                 <li>
-                    <a href="">关于我们</a>
+                    <a href="./airBarton/page/about.html">关于我们</a>
                 </li>
             </ul>
        </div>
    </header>
    <!-- 图片部分 -->
-   
-   <!-- 网站公告、行业动态部分 -->
-
-   <!-- 战略合作伙伴部分 -->
-
+   <div class="banner clearfix">
+        <div class="banner-imgdiv clearfix">
+            <img class="banner-img" src="./airBarton/img/banner.png">
+        </div>
+        <div class="banner-leftdv airdiv clearfix">
+            <div class="banner-left clearfix">
+                <div style="width:100%;height:100%;position: relative;">
+                    <img src="./airBarton/img/kbt-wx.jpg" class="banner-leftimg">
+                    <div class="banner-leftheader" style="display: none;">
+                        扫二维码领取好礼
+                    </div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <!-- 网站公告部分 -->
+    <div class="airdiv notice clearfix">
+        <div class="notice-left clearfix">
+                <div class="notice-header clearfix">
+                        <div class="notice-hdleft clearfix">
+                            <span class="notive-leftword">网站公告</span>    
+                            <span class="boticexian"></span>
+                        </div>
+                        <a href="" class="notice-hdright clearfix">
+                            <span class="notice-hdrightspan">更多</span>  
+                            <span class="notice-hdrighticon iconfont iconshuangyoujiantou-"></span>
+                        </a>
+                    </div>
+                    <a href="" class="notice-word clearfix">
+                        <span class="notice-wordleft">空巴通顺风车上线了</span>
+                        <span class="notice-wordtime">2019-04-01</span>
+                    </a>
+                    <a  href="" class="notice-word clearfix">
+                        <span class="notice-wordleft">团队包车上线了</span>
+                        <span class="notice-wordtime">2018-03-01</span>
+                    <a  href="" class="notice-word clearfix">
+                        <span class="notice-wordleft">班车预定上线了</span>
+                        <span class="notice-wordtime">2018-08-01</span>
+                    </a>
+        </div>
+        <div class="notice-right clearfix">
+            <div class="notice-header clearfix">
+                <div class="notice-hdleft clearfix">
+                    <span class="notive-leftword">行业动态</span>    
+                    <span class="boticexian"></span>
+                </div>
+                <a href="" class="notice-hdright clearfix">
+                    <span class="notice-hdrightspan">更多</span>  
+                    <span class="notice-hdrighticon iconfont iconshuangyoujiantou-"></span>
+                </a>
+            </div>
+            <div class="notice-rightcenter clearfix">
+                <a href="">测试数据xxxxxxxxxxxx</a>
+                <a href="">测试数据xxxxxxxxxxxx</a>
+                <a href="">测试数据xxxxxxxxxxxx</a>
+            </div>
+        </div>
+    </div>
+    <!--业务范围和行业动态部分  -->
+    <div class="airdiv business clearfix">
+        <div class="business-left clearfix">
+            <div class="business-lefthd clearfix">
+                <span class="business-leftword">热门服务</span>    
+                <span class="business-boticexian"></span>
+            </div>
+            <div class="business-leftct clearfix">
+                <span class="business-leftctspan">机场预定</span>
+                <span class="business-leftctspan">班车服务</span>
+                <span class="business-leftctspan">团队包车</span>
+                <span class="business-leftctspan">顺风车</span>
+                <span class="business-leftctspan">上门接送</span>
+                <span class="business-leftctspan">其他</span>
+            </div>
+        </div>
+        <div class="business-right clearfix">
+            <div class="business-righthd clearfix">
+                <span class="business-rightword">服务城市</span>    
+                <span class="business-boticexian"></span>
+            </div>
+            <div class="business-rightct clearfix">
+                <span class="business-rightctspan" style="color: #358eec;">常州</span>
+                <span class="business-rightctspan">上海</span>
+                <span class="business-rightctspan">苏州</span>
+                <span class="business-rightctspan">无锡</span>
+                <span class="business-rightctspan">南京</span>
+                <span class="business-rightctspan">泰州</span>
+                <span class="business-rightctspan">南通</span>
+                <span class="business-rightctspan">其他</span>
+            </div>
+        </div>
+    </div>
+   <!-- 友情链接部分 -->
+    <div class="airdiv link clearfix">
+        <div class="link-header">友情链接</div>
+        <div class="link-center clearfix">
+            <ul>
+                <li>
+                    <a href="http://www.czgdly.com" target="_blank">
+                        <img src="./airBarton/img/gdgl.png">
+                        <div>常州光大国旅</div>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!-- 右部内容 -->
+    <div class="suspension clearfix">
+        <ul>
+            <li class="suspension-one clearfix">
+                <span class="suspension-oneleft">客服电话</span>
+                <span class="suspension-oneright" style="display: none;">0519-8888-2002</span>
+            </li>
+            <li class="suspension-two clearfix">
+                <span  class="suspension-twoleft">关注我们</span>
+                <img src="./airBarton/img/kbt-wx.jpg"  style="display: none;" class="suspension-tworight">
+            </li>
+            <li class="suspension-three clearfix">
+                <span class="suspension-threeicon iconfont iconshang"></span>
+            </li>
+        </ul>
+    </div>
    <!-- 底部公司介绍内容 -->
-
+    <div class="footer clearfix">
+        <div class="footer-center airdiv clearfix">
+        <div class="footer-phone clearfix">
+            <span class="footer-phonebt">空巴通官方电话</span>
+            <span class="footer-phonespan">0519-8888-2002</span>
+        </div>
+        <div class="footer-gz clearfix">
+            <span class="footer-gzbt">关注我们,了解更多</span>
+            <img  class="footer-gzimg" src="./airBarton/img/kbt-wx.jpg">
+        </div>
+        <div class="footer-right clearfix">
+            <a href="" class="footer-righta">
+                <span>电子营业执照</span>
+                <img src="./airBarton/img/expIco.png">
+            </a>
+            <a href="" class="footer-righta" style="margin-left:26px;">
+                <span>工商网监</span>
+                <img src="./airBarton/img/expIco.png">
+            </a>
+            <div class="footer-rightdiv clearfix">
+                <p>空巴通 Copyright©2015-2019版权所有</p>
+                <p>车巴达(苏州)网络科技有限公司</p>
+                <p>苏ICP备15030935号-1</p>
+            </div>
+        </div>  
+    </div>
+    </div>
+    <script src="./airBarton/js/jquery.min.js"></script>
+    <script src="./airBarton/js/airBarton.js"></script>
 </body>
 </html>
