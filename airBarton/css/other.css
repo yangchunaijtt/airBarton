@@ -1,0 +1,200 @@
+/* 帮助页样式设置 */
+.help-center{
+    margin-top:100px;
+    margin-bottom: 48px;
+    min-height:600px;
+}
+.help-center .help-ctleft{
+    float:left;
+    width:20%;
+}
+.help-center .help-ctleft ul {
+    display: block;
+}
+.help-center .help-ctleft   li{
+    display: block;
+}
+.help-center .help-ctleft   li a{
+    display: block;
+    border:1px solid #dcdcdc;
+    float:left;
+    border-bottom: none;
+    width:180px;
+    line-height: 60px;
+    text-align: center;
+    font-size:16px;
+}
+.help-center .help-ctleft ul  li{
+    width:100%;
+    line-height: 36px;
+    font-size: 18px;
+}
+.help-center .help-ctright{
+    float:left;
+    width:68%;
+    padding:0px 5%;
+    border-left:1px dashed #dcdcdc;
+    color:#19191a;
+}
+.help-center .help-ctright p{
+    line-height: 30px;
+    text-indent:10px
+}
+.help-center .help-ctright h1{
+    font-size: 32px;
+    font-weight: bold;
+    border-bottom: 2px solid rgb(204, 204, 204);
+    padding: 0px 4px 0px 0px;
+    text-align: center;
+    margin: 0px 0px 20px;
+}
+.help-center .help-ctright h2{
+    font-size:22px;
+}
+.help-center .help-ctright h3{
+    font-size:20px;
+}
+.help-center .help-ctright h4{
+    font-size:18px;
+}
+.help-center .help-ctleftluone a{
+    background: #2290f9;
+    color: #fff;
+}
+.help-center .help-ctleft ul .help-ctleftlulast a{
+    border-bottom:1px solid #dcdcdc;
+}
+
+/* 关于我们页的样式设置 */
+    .aboutcenter{
+        margin-bottom: 80px;
+    }
+    .about-ctheader{
+        margin:0 auto;
+        margin-bottom:50px;
+        width:564px;
+    }
+    .about-ctheader ul {
+        display: block;
+    }
+    .about-ctheader ul li{
+        width: 128px;
+        display: block;
+        font-size: 24px;
+        line-height: 54px;
+        text-align: center;
+        margin: 0 30px;
+        float:left;
+    }
+    .about-ctheader ul li a{
+        display: block;
+        width:100%;
+        height:100%;
+    }
+    .about-ctfooter .about-tjone{
+        line-height: 36px;
+        font-size: 16px;
+        text-indent: 2em;
+        margin: 0 0 10px;
+        color: rgb(110, 108, 108);
+    }
+    .about-tjtwo{
+        width: 258px;
+        margin: 0 auto;
+    }
+    .about-tjtwo span{
+        text-align: center;
+        display: block;
+        line-height: 50px;
+        font-size: 21px;
+        color: #555;
+    }
+    .about-tjtwo img{
+        display: block;
+    }
+
+    .about-tjthree {
+        width:1000px;
+        margin:0 auto;
+    }
+    .about-tjthree .about-tjthreeleft{
+        width: 300px;
+    }
+    .about-tjthree .about-tjthreeleft h3{
+        font-size: 20px;
+        margin-bottom: 30px;
+        margin-top: 20px;
+    }
+    .about-tjthree .about-tjthreeleft span{
+        display: block;
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 0;
+        color: #555;
+    }
+    .about-tjthree-right{
+        display: inline-block;
+        width: 700px;
+    }
+    .about-tjthree-right .about-tjthree-rtdz{
+        display: block;
+        font-size: 22px;
+        margin-bottom: 16px;
+        margin-top: 20px;
+    }
+    .about-tjthree-right .about-tjthree-rtname{
+        display: block;
+        line-height: 40px;
+        color: #555;
+    }
+    .about-tjthree-right  a {
+        display: block;
+        width:700px;
+    }
+    .about-tjthree-right  a img{
+        width:100%;
+        display: block;
+    }
+
+/* 资讯公告页 */
+    .notice-center{
+        margin-top:100px;
+        margin-bottom:80px;
+        min-height:600px;
+    }
+    .notice-ctleft{
+        width:300px;
+        float:left;
+        margin-left:100px;
+    }
+    .notice-ctleft a{
+        display: block;
+        line-height: 40px;
+        border-bottom: 1px solid #dcdcdc;
+        text-indent: 10px;
+    }
+
+    .notice-ctright{
+        float: right;
+        width: 600px;
+        border-left: 1px solid #dcdcdc;
+        min-height: 600px;
+    }
+    .notice-ctright-xinw{
+        width: 80%;
+        padding: 0 10%;
+        color: #666;
+    }
+    .notice-ctright-xinw h1{
+        margin-bottom: 15px;
+        line-height: 40px;
+        font-size: 20px;
+        text-align: center;
+    }
+    .notice-ctright-xinw h2{
+        text-align: center;
+        margin-bottom: 30px;
+    }
+    .notice-ctright-xinw p{
+        text-indent: 2em;
+    }

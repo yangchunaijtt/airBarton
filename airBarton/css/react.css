@@ -63,6 +63,9 @@ a{color:#333;}
 }
 .hdleft .hdleft-img{
   width: 40px;
+  display: inline-block;
+  margin-top: 10px;
+  float: left;
 }
 .hdleft .hdleft-span{
   color: #0168b7;
@@ -110,6 +113,7 @@ a{color:#333;}
 }
 .footer-phone .footer-phonebt{
   line-height: 26px;
+  display: block;
 }       
 .footer-gz{
   float: left;
@@ -132,12 +136,115 @@ a{color:#333;}
 .footer-right .footer-righta{
   display: inline-block;
   float: left;
+  line-height: 26px;
+}
+.footer-right .footer-righta img{
+  display: inline-block;
+  width:14px;
 }
 .footer-right .footer-rightdiv{
   float: right;
 }
 .footer-right .footer-rightdiv p{
   line-height: 30px;
+}
+/* 右侧悬浮提示 */
+.suspension{
+  position: fixed;
+  width: 45px;
+  right: 0px;
+  top: 200px;
+  position: fixed;
+  z-index: 99;
+}
+.suspension ul {
+  display: block;
+}
+.suspension ul li{
+  width: 44px;
+  padding: 3px;
+  text-align: center;
+  background-color: #34B558;
+  color: #fff;
+  position: relative;
+  list-style: none;
+}
+.suspension ul li .suspension-oneright{
+  position: absolute;
+  width: 150px;
+  right: 48px;
+  display: block;
+  top: 1px;
+  line-height: 50px;
+  border: 2px solid #346E44;
+  z-index:99;
+  background: #fff;
+  color:#555;
+  text-align: center;
+}
+.suspension ul li .suspension-tworight{
+  position: absolute;
+  top:1px;
+  right:48px;
+  border: 2px solid #346E44;
+  z-index: 99px;
+  width:150px;
+}       
+.suspension-threeicon{
+  font-size: 20px;
+}
+
+/* 中间背景图部分 */
+.banner{
+  margin-top: 60px;
+  position: relative;
+  max-width: 100%;
+  height: 440px;
+}
+.banner .banner-imgdiv{
+  width: 1920px;
+  position: absolute;
+  left: 50%;
+  margin-left: -960px;
+}
+.banner  .banner-imgdiv .banner-img{
+  width: 100%;
+  height: 440px;
+}
+@media (min-width: 1200px){
+  .banner-imgdiv {
+      width: 1170px;
+  }
+}
+.banner-leftdv{
+  position: relative;
+  height:100%;
+}
+.banner-left{
+  position: absolute;
+  width: 368px;
+  height: 368px;
+  background: #fff;
+  border: 1px solid #eee;
+  top: 30px;
+  
+}
+.banner-leftimg{
+  display: block;
+  width:100%;
+  height:100%;
+}
+.banner-leftheader{
+  position: absolute;
+  top: 50%;
+  left: 368px;
+  width: 120px;
+  background: #fff;
+  font-size: 14px;
+  line-height: 36px;
+  margin-top: -18px;
+  color: #fd982b;
+  text-align: center;
 }
 
 
