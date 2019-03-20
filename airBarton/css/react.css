@@ -95,6 +95,7 @@ a{color:#333;}
   font-size: 14px;
   padding-bottom: 30px;
   margin-top: 30px;
+  min-width: 1170px;
 }
 .footer a{
   color:#fff;
